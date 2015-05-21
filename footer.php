@@ -1,9 +1,11 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
       </footer>
     </div> <!-- /container -->
+
+    <?php wp_footer(); ?>
 
   </body>
 </html>
